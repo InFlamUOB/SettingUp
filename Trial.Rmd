@@ -1,6 +1,5 @@
 ---
 title: "Trial"
-output:
 output: github_document
 ---
 
