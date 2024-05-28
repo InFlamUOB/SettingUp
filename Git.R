@@ -27,5 +27,25 @@ git remote rm origin
 
 git remote add origin https://github.com/[YourUsername]/[YourRepoName].git
 
+git push --set-upstream origin main
+
 ###### Otehrwise can set project and github at same time. 
 
+https://happygitwithr.com/usage-intro 
+#BEST!!!
+
+
+#crate repo in github and add ro project in RStudio 
+
+#usethis::create_from_github(
+#  "https://github.com/InFlamUOB/my-repo",
+#  destdir = "/Users/bravol/Desktop/SettingUp"
+#)
+
+
+#if no previous github connection this should create everything? YES!!!!!!!!!!!!
+#usethis::use_github()
+
+
+
+#Maybe good if understood this a bit better! (https://happygitwithr.com/new-github-first)
