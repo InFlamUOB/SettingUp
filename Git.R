@@ -14,3 +14,18 @@ usethis::create_github_token()
 #In R, call gitcreds::gitcreds_set() to get a prompt where you can paste your PAT:
 
 gitcreds::gitcreds_set()
+
+#####################
+
+#All soreted, shoukd not have to do anything else. 
+
+If sset up a project and want to link it to a github one: 
+
+git remote -v
+
+git remote rm origin
+
+git remote add origin https://github.com/[YourUsername]/[YourRepoName].git
+
+###### Otehrwise can set project and github at same time. 
+
